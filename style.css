@@ -1,0 +1,110 @@
+body  {
+    background-image: url("back.jpg");
+    background-color: #cccccc;
+  }
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+div.control{
+    height: auto;
+    
+}
+.confirm-message{
+  margin: 0;
+  padding: 0;
+  font-size: .8em;
+}
+div.form-control{
+    widows: 70px;
+}
+.control {
+    margin-top: 0.5in;
+    border-right: 1px solid greenyellow;
+    padding:30px;
+    padding-bottom:50px;
+    border-style:outset;
+    border-color: aqua;
+    text-align: center;
+
+}
+
+.form-control {
+    margin-top: 0.5in;
+    padding-top:30px;
+    padding-left: 30px;
+    border-style: outset;
+    border-color: aqua;
+    text-align: center;
+    
+}
+
+.submission{
+    text-align: left;
+    padding:10px;
+    text-align: center;
+}
+span {
+    content: "\2192";
+  }
+form > label {
+    padding: 5px;
+}
+.b{
+    text-decoration-color: aliceblue;
+}
+input[type="text"] {
+    margin: 5px;
+    
+}
+
+input[type="password"] {
+    margin: 5px;
+}
+input[type=text], select {
+    width: 80%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 80%;
+    padding: 10px 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=number], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
